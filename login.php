@@ -20,7 +20,7 @@ session_start();
 $_SESSION["user_id"] = $row["user_id"];
 $_SESSION["username"] = $row["username"];
 $_SESSION["password"] = $row["password"];
-header("Location: https://khavronin.ursse.org/index.php?");
+header("Location: https://khavronin.ursse.org/mypage.php?");
 $sql->close();
 exit();
 } else {
