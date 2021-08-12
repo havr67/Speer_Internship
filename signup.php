@@ -36,7 +36,7 @@ if($sql->query($q)){
 	mail($to,$subject,$massage,$headers);
 
 
-header("Location: https://khavronin.ursse.org/index.php?");
+header("Location: https://khavronin.ursse.org/login.php?");
 $sql->close();
 exit();
 }
