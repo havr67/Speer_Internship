@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 if (strlen($firstname) > 0 && strlen($email) > 0 && strlen($password) > 0 && strlen($username) > 0 && strlen($lastname) > 0) {
-$sql = new mysqli("localhost", "root", "Olimp110", "employels");
+$sql = new mysqli("localhost", "root", "", "");
 if($sql->connect_error) {
 die("connetion failed: " . $sql->connect_error);
 }
