@@ -19,7 +19,10 @@ $username = $_SESSION["username"];
   <style>
 	table { 
   border-spacing: 10px; 
-  	} 
+  	}
+	#hidDiv {
+	    display: none;
+	}
   </style>
 </head>
 <body class="loginpage">
